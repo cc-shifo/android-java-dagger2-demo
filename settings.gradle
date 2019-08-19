@@ -1,0 +1,1 @@
+include ':app', ':JavaInject', ':JavaComponent', ':JavaProvides', ':sample', ':JavaBindsOptional', ':bindingInstance', ':bindingSet', ':bindingMap', ':compositeKey', ':JavaSubcomponent', ':JavaComponentDependency', ':JavaComponentSubcomponent', ':JavaComponentParentIsSubcomponent'

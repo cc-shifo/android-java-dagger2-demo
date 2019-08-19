@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.dagger:dagger:2.24'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.24'
+//    javax.annotation.Nullable 错误: 找不到符号符号:   类 Nullable
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
